@@ -6,12 +6,12 @@ const About = () => {
     <section className="about-section">
       <div className="about-content">
         <img 
-          src="/path-to-your-image.jpg" 
+          src="./assets/about-me-avatar.webp" 
           alt="Larissa" 
           className="about-image" 
         />
         <div className="about-text">
-          <h1>About Me</h1>
+          <h1>About</h1>
           <p>
             Hi, I'm Larissa! I'm passionate about web development and always eager to learn new skills.
             In my free time, I enjoy reading, writing, and spending time with my cat, Axl.
