@@ -142,6 +142,18 @@ button:focus-visible {
   margin-right: 0.5rem;
 }
 
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav button {
+  transition: transform 0.2s ease-in-out;
+}
+
+nav button:hover {
+  transform: scale(1.1);
+}
 
 @media (prefers-color-scheme: light) {
   :root {

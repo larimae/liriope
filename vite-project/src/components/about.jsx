@@ -1,12 +1,12 @@
 import React from 'react';
-import './index.css'; 
+import '../index.css'; 
 
 const About = () => {
     return (
         <section className="about-section">
             <div className="about-content">
                 <img 
-                    src="./assets/about-me-avatar.webp" 
+                    src="/about-me-avatar.webp" 
                     alt="Larissa" 
                     className="about-image" 
                 />
