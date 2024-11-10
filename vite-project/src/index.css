@@ -183,6 +183,50 @@ ul li {
   font-size: 1.2rem;
 }
 
+.portfolio {
+  text-align: center;
+  padding: 2rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.portfolio-card {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.portfolio-card h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.portfolio-card a {
+  color: navy;
+  text-decoration: none;
+}
+
+.portfolio-card a:hover {
+  text-decoration: underline;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
