@@ -4,16 +4,16 @@ import '../index.css';
 const Resume = () => {
     return (
         <div className="resume">
-          <h1>Resume</h1>
-          <p>
-            Download my resume:
+            <h1>Resume</h1>
+        <p>
+        Download my resume:
             <a href="/Resume.pdf" download className="resume-download">
-              <button>Download Resume</button>
+                <button>Download My Resume</button>
             </a>
-          </p>
+        </p>
     
-          <h2>Proficiencies</h2>
-          <ul>
+        <h2>Proficiencies</h2>
+            <ul>
             <li>JavaScript (ES6+)</li>
             <li>React, Redux</li>
             <li>Node.js, Express</li>
@@ -21,8 +21,8 @@ const Resume = () => {
             <li>HTML5, CSS3,</li>
             <li>Git, GitHub</li>
             <li>Agile Development</li>
-          </ul>
+            </ul>
         </div>
-      )};
+    )};
 
 export default Resume;

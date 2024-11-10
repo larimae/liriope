@@ -11,7 +11,7 @@ const projects = [
     {
       title: 'Ftiness Tracker',
       image: '/project-two.jpeg',
-      deployLink: 'https://project2-minutemoves.onrender.com',
+      deployLink: 'https://www.myfitnesspal.com/',
       repoLink: 'https://github.com/Magsmags600/Project2-MinuteMoves',
     },
     {

@@ -1,35 +1,29 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import '../index.css';
 
-function Header({ setPage, currentPage }) {
+function Header() {
+    const location = useLocation(); 
+
     return (
+      <header>
+      <h1>Larissa's Portfolio</h1>
       <nav>
-        <button
-          onClick={() => setPage('About')}
-          className={currentPage === 'About' ? 'active' : ''}
-        >
-          About
-        </button>
-        <button
-          onClick={() => setPage('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'active' : ''}
-        >
+        <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
+          About Me
+        </Link>
+        <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>
           Portfolio
-        </button>
-        <button
-          onClick={() => setPage('Contact')}
-          className={currentPage === 'Contact' ? 'active' : ''}
-        >
+        </Link>
+        <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
           Contact
-        </button>
-        <button
-          onClick={() => setPage('Resume')}
-          className={currentPage === 'Resume' ? 'active' : ''}
-        >
+        </Link>
+        <Link to="/resume" className={location.pathname === '/resume' ? 'active' : ''}>
           Resume
-        </button>
+        </Link>
       </nav>
-    );
-  }
-  
+    </header>
+  );
+}
+
   export default Header;
