@@ -18,7 +18,7 @@ const Footer = () => {
                 <i className="fab fa-linkedin"></i> LinkedIn
                 </a>
                 <a
-                    href="https://twitter.com/your-twitter-profile"
+                    href="https://stackoverflow.com/"
                     className="footer-link"
                 >
                 <i className="fab fa-stackoverflow"></i> StackOverflow

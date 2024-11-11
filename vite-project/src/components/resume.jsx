@@ -5,12 +5,12 @@ const Resume = () => {
     return (
         <div className="resume">
             <h1>Resume</h1>
-        <p>
-        Download my resume:
-            <a href="/Resume.pdf" download className="resume-download">
-                <button>Download My Resume</button>
-            </a>
-        </p>
+        <p>Download my resume:</p>
+            <div className="resume-download">
+                <a href="/Resume.pdf" download >
+                    <button>Download My Resume</button>
+                </a>
+            </div>
     
         <h2>Proficiencies</h2>
             <ul>
