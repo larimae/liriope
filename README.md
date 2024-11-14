@@ -14,7 +14,7 @@ This is a personal portfolio website showcasing my projects, skills, and contact
 
 ## Deployed Application
 The portfolio is hosted and can be accessed at the following link:
-[Deployed Portfolio](<insert-your-deployment-link-here>)
+[Deployed Portfolio](<insert-when-done>)
 
 ## Features
 - **Home Page:** Automatically opens on the "About" page with a description of me and an image.
@@ -34,15 +34,19 @@ The portfolio is hosted and can be accessed at the following link:
 ## Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:larimae/liriope.git
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-project
+   cd liriope
 
 3. Install dependencies
    ```bash
    npm install
+
+4. Build the app 
+   ```bash
+   npm run build
 
 4. Start the development server
    ```bash
