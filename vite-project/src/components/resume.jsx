@@ -14,8 +14,8 @@ const Resume = () => {
     
         <h2>Proficiencies</h2>
             <ul>
-            <li>JavaScript (ES6+)</li>
-            <li>React, Redux</li>
+            <li>JavaScript</li>
+            <li>React</li>
             <li>Node.js, Express</li>
             <li>SQL, PostgreSQL</li>
             <li>HTML5, CSS3,</li>
